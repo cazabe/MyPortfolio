@@ -1,0 +1,9 @@
+nav a{
+    font-family: 'Playfair Display', serif;
+}
+
+.nav-link:hover{
+    color: #e96b27!important;
+    font-size: 18px;
+}
+
