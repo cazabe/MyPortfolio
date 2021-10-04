@@ -29,3 +29,7 @@
   a{
     cursor: pointer;
 }
+
+p{
+  text-align: justify;
+}

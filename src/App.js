@@ -1,6 +1,6 @@
 import NavComponent from "./Components/Layout/Nav";
 import Footer from "./Components/Layout/Footer";
-import Content from "./Components/Pages/content";
+import Content from "./Components/Pages/mainContent.js";
 import "./App.css";
 
 function App() {
