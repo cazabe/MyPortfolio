@@ -1,7 +1,7 @@
 import React from "react";
-import Projects from './projects/index';
-import Knowledge from './knowledge/index';
-import Contact from './contact/index';
+import Projects from "./projects/index";
+import Knowledge from "./knowledge/index";
+import Contact from "./contact/index";
 import programmer from "../../Assets/software_developer.png";
 
 const Content = () => {
@@ -18,37 +18,43 @@ const Content = () => {
             essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus
             PageMaker including versions of Lorem Ipsum.
           </p>
-          <div className="mb-4">
+          <div className="mb-4 my-button">
             <a href="/images/myw3schoolsimage.jpg" download>
-              <img src="/images/myw3schoolsimage.jpg" alt="W3Schools" />
+              <strong>Descarga mi cv</strong>
             </a>
           </div>
-          <div className="row">
-            <div className="col-md-3">
-              <span>Linked</span>
+          <div className="row text-center">
+            <div className="col-md-1">
+              <a href="https://github.com/cazabe" target="_blank" rel="noreferrer">
+                <span className="fa fa-github"></span>
+              </a>
+            </div>
+            <div className="col-md-1">
+              <a href="https://www.linkedin.com/in/carlos-zavala-benavides" target="_blank" rel="noreferrer">
+                <span className="fa fa-linkedin"></span>
+              </a>
             </div>
 
-            <div className="col-md-3">
-              <span>Linked</span>
+            <div className="col-md-1">
+              <a href="https://www.instagram.com/kamaytech/" target="_blank" rel="noreferrer">
+                <span class="fa fa-youtube"></span>
+              </a>
             </div>
 
-            <div className="col-md-3">
-              <span>Linked</span>
+            <div className="col-md-1">
+              <a href="https://www.instagram.com/kamaytech/" target="_blank" rel="noreferrer">
+                <span className="fa fa-instagram"></span>
+              </a>
             </div>
-
-            <div className="col-md-3">
-              <span>Linked</span>
-            </div>
-
           </div>
         </div>
         <div className="col-md-6 col-xs-12">
-          <img src={programmer} style={{ height: "400px" }} alt="programming" />
+          <img src={programmer} style={{ height: "400px", width: "100%" }} alt="programming" />
         </div>
       </div>
-      <Knowledge/>
-      <Projects/>
-      <Contact/>
+      <Knowledge />
+      <Projects />
+      <Contact />
     </div>
   );
 };
