@@ -37,7 +37,7 @@ const Content = () => {
 
             <div className="col-md-1">
               <a href="https://www.instagram.com/kamaytech/" target="_blank" rel="noreferrer">
-                <span class="fa fa-youtube"></span>
+                <span className="fa fa-youtube"></span>
               </a>
             </div>
 
