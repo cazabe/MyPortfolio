@@ -1,76 +1,58 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap");
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-
-  html, body { 
-    height: 100%;
-    background-color: #f8f9fa;
-  }
- 
-  .main-container {
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-  }
-
-  .main {
-    flex: 1;
-  }
-
-  footer{
-      background-color: #333;
-      padding: 1rem;
-      color: #fff;
-  }
-
-  a{
-    cursor: pointer;
-    text-decoration: none;
-    color: #fff;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-p{
+:root {
+  --normal-font: 400;
+  --bold-font: 700;
+  --bolder-font: 900;
+  --bg-color: #fcfcfc;
+  --primary-color: #4756df;
+  --secondary-color: #ff7235;
+  --primary-shadow: #8b8eaf;
+  --secondary-shadow: #a17a69;
+  --bottom-margin: 0.5rem;
+  --bottom-margin-2: 1rem;
+  --line-height: 1.7rem;
+  --transition: 0.3s;
+}
+
+html,
+body {
+  height: 100%;
+  background-color: #f8f9fa;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.main {
+  flex: 1;
+}
+
+footer {
+  background-color: #333;
+  padding: 1rem;
+  color: #fff;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+  color: #fff;
+}
+
+p {
   text-align: justify;
 }
 
-.fa {
-  padding: 10px;
-  font-size: 30px;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-  border-radius: 10px;
-}
-
-.fa:hover {
-    opacity: 0.7;
-}
-
-.fa-linkedin {
-  background: #007bb5;
-  color: #fff;
-}
-
-.fa-youtube {
-  background: #bb0000;
-  color: #fff;
-}
-
-.fa-instagram {
-  background: #125688;
-  color: #fff;
-}
-
-.fa-github{
-  background-color: #010409;
-  color: #fff;
-}
-
-.my-button{
+.my-button {
   background-color: #023047; /* Green */
   border: none;
   color: white;
@@ -81,5 +63,18 @@ p{
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
-  border-radius:8px;
+  border-radius: 8px;
+}
+
+.socials {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  right: 1%;
+  bottom: 50%;
+}
+
+.socicon {
+  width: 3rem;
+  height: 3rem;
 }
