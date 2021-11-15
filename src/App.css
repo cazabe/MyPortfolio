@@ -23,7 +23,8 @@
 html,
 body {
   height: 100%;
-  background-color: #f8f9fa;
+  /* background-color: #f8f9fa; */
+  scroll-behavior: smooth;
 }
 
 .main-container {
@@ -75,6 +76,18 @@ p {
 }
 
 .socicon {
+  width: 3rem;
+  height: 3rem;
+}
+
+.scroll-up {
+  position: fixed;
+  right: 0.5%;
+  bottom: 3%;
+  cursor: pointer;
+}
+
+.up-arrow {
   width: 3rem;
   height: 3rem;
 }

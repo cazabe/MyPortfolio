@@ -7,6 +7,7 @@ import youtube from "../../Assets/icons8-youtube-logo.gif";
 import instagram from "../../Assets/icons8-instagram.gif";
 import linkedIn from "../../Assets/icons8-linkedin-circled.gif";
 import github from "../../Assets/icons8-github.gif";
+import rocket from "../../Assets/icons8-launch.gif";
 
 const Content = () => {
   return (
@@ -56,6 +57,9 @@ const Content = () => {
           <img src={github} alt="Github" class="socicon" />
         </a>
       </div>
+      <i class="scroll-up" id="scroll-up">
+        <img src={rocket} class="socicon up-arrow" alt="scroll-up" />
+      </i>
       <Skills />
       <Projects />
       <Contact />

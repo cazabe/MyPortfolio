@@ -1,4 +1,12 @@
 import React from "react";
+import html from "../../../Assets/icons8-html-5.svg";
+import pyhton from "../../../Assets/icons8-python.gif";
+import js from "../../../Assets/icons8-javascript.gif";
+import node from "../../../Assets/icons8-node-js.svg";
+import react from "../../../Assets/icons8-react-native.svg";
+import php from "../../../Assets/icons8-php-logo.svg";
+import flutter from "../../../Assets/icons8-flutter.svg";
+import mysql from "../../../Assets/icons8-mysql-logo.svg";
 import "./knowledge.css";
 
 const Skills = () => {
@@ -8,45 +16,17 @@ const Skills = () => {
 
       <div class="skills-wrapper">
         <div class="first-set animate__animated animate__pulse">
-          <img
-            src="assets/icons/icons8-html-5.svg"
-            alt=""
-            loading="lazy"
-            class="icon icon-card"
-          />
-          <img
-            src="assets/icons/icons8-css3.svg"
-            alt=""
-            loading="lazy"
-            class="icon icon-card"
-          />
-          <img
-            src="assets/icons/icons8-javascript.svg"
-            alt=""
-            loading="lazy"
-            class="icon icon-card"
-          />
+          <img src={js} alt="" loading="lazy" class="icon icon-card" />
+          <img src={node} alt="" loading="lazy" class="icon icon-card" />
+          <img src={react} alt="" loading="lazy" class="icon icon-card" />
+          <img src={html} alt="" loading="lazy" class="icon icon-card" />
         </div>
 
         <div class="second-set animate__animated animate__pulse">
-          <img
-            src="assets/icons/icons8-bootstrap.svg"
-            alt=""
-            loading="lazy"
-            class="icon icon-card"
-          />
-          <img
-            src="assets/icons/icons8-react-native.svg"
-            alt=""
-            loading="lazy"
-            class="icon icon-card"
-          />
-          <img
-            src="assets/icons/icons8-git.svg"
-            alt=""
-            loading="lazy"
-            class="icon icon-card"
-          />
+          <img src={pyhton} alt="" loading="lazy" class="icon icon-card" />
+          <img src={php} alt="" loading="lazy" class="icon icon-card" />
+          <img src={mysql} alt="" loading="lazy" class="icon icon-card" />
+          <img src={flutter} alt="" loading="lazy" class="icon icon-card" />
         </div>
       </div>
     </section>
