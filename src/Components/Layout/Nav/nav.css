@@ -2,8 +2,16 @@ nav a{
     font-family: 'Playfair Display', serif;
 }
 
+.nav-item a{
+    color: #fff!important;
+}
+
 .nav-link:hover{
     color: #e96b27!important;
     font-size: 18px;
 }
 
+/* nav .container .navbar{
+    position: absolute!important;
+    z-index: 1;
+} */

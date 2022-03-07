@@ -1,18 +1,11 @@
 import React from "react";
-import programmer from "../../../Assets/icons8-developer.gif";
 import "./nav.css";
 
 const NavComponent = () => {
+
   return (
-    <nav className="container navbar navbar-expand-lg navbar-light">
+    <nav className="container navbar navbar-expand-lg navbar-light" style={{ position: "absolute", zIndex: "1" }}>
       <div className="container-fluid">
-        <a className="navbar-brand" href>
-          <img
-            style={{ height: "45px" }}
-            src={programmer}
-            alt="made by freepik.com from Flaticon"
-          />
-        </a>
         <button
           className="navbar-toggler"
           type="button"
