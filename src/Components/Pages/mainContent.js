@@ -1,9 +1,8 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Projects from "./projects/index";
 import Skills from "./skills/index";
 import Contact from "./contact/index";
 import programmer from "../../Assets/software_developer.png";
-import youtube from "../../Assets/icons8-youtube-logo.gif";
 import instagram from "../../Assets/icons8-instagram.gif";
 import linkedIn from "../../Assets/icons8-linkedin-circled.gif";
 import github from "../../Assets/icons8-github.gif";
@@ -14,43 +13,40 @@ import CodeVideo from "../../Assets/codeVideo.mp4";
 
 const Content = () => {
 
-  // scroll to top functionality
-  //  const scrollUp = document.getElementById("scroll-up");
-
-  //  scrollUp.addEventListener("click", () => {
-  //    window.scrollTo({
-  //      top: 0,
-  //      left: 0,
-  //      behavior: "smooth",
-  //    });
-  //  });
+  useEffect(() => {
+    const scrollUp = document.getElementById("scroll-up");
+    scrollUp.addEventListener("click", () => {
+      window.scrollTo({
+        top: 0,
+        left: 0,
+        behavior: "smooth",
+      });
+    });
+  })
 
   return (
     <>
       <Banner video={CodeVideo} />
       <div className="container mt-4">
-        <div className="row">
+        <div className="row" id="sobremi">
           <div className="col-md-6 col-xs-12">
             <h1>
-              <strong>Hola, soy Carlos.</strong>
+              <strong><span style={{ fontFamily: "Orbitron, sans-serif" }}>Hola!</span></strong>
+              <br></br>
+              <strong><span style={{ fontFamily: "Cinzel, serif", color: "var(--custom-color)" }}>Soy Carlos.</span></strong>
             </h1>
             <p>
-              What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the
-              printing and typesetting industry. Lorem Ipsum has been the
-              industry's standard dummy text ever since the 1500s, when an unknown
-              printer took a galley of type and scrambled it to make a type
-              specimen book. It has survived not only five centuries, but also the
-              leap into electronic typesetting, remaining essentially unchanged.
-              It was popularised in the 1960s with the release of Letraset sheets
-              containing Lorem Ipsum passages, and more recently with desktop
-              publishing software like Aldus PageMaker including versions of Lorem
-              Ipsum.
+              Me gustaría comenzar contando un poco de mi historia y cómo me involucre
+              en el mundo de la programación.
+              Empecé a programar como una forma de marcar un camino en mi vida y una forma de obtener una nueva habilidad
+              que me ayudaria en mi desarrollo profesional ya que no estaba pasando por el mejor momento. Nunca me imagine que despues de ver un tutorial en youtube sobre programación
+              haya terminado trabajando como programador y que esto se haya convertido en mi pasión.
             </p>
-            <div className="mb-4 my-button">
-              <a href="/images/myw3schoolsimage.jpg" download>
-                <strong>Descarga mi cv</strong>
-              </a>
-            </div>
+            <a href="https://drive.google.com/file/d/1bAUvHApRNR48VIoT8uQN-LlFA75CMgzn/view?usp=sharing" target="_blank" rel="noreferrer">
+              <div className="mb-4 my-button col-md-3 col-xs-12">
+                <strong>Mira mi cv</strong>
+              </div>
+            </a>
           </div>
           <div className="col-md-6 col-xs-12">
             <img
@@ -60,22 +56,19 @@ const Content = () => {
             />
           </div>
         </div>
-        <div class="socials">
-          <a href="#" target="_blank">
-            <img src={youtube} alt="Twitter" loading="lazy" class="socicon" />
+        <div className="socials">
+          <a href="https://www.instagram.com/kamaytech/" target="_blank" rel="noreferrer">
+            <img src={instagram} alt="Instagram" loading="lazy" className="socicon" />
           </a>
-          <a href="#" target="_blank">
-            <img src={instagram} alt="Instagram" loading="lazy" class="socicon" />
+          <a href="https://www.instagram.com/kamaytech/" target="_blank" rel="noreferrer">
+            <img src={linkedIn} alt="Linkedin" loading="lazy" className="socicon" />
           </a>
-          <a href="#" target="_blank">
-            <img src={linkedIn} alt="Linkedin" loading="lazy" class="socicon" />
-          </a>
-          <a href="#" target="_blank">
-            <img src={github} alt="Github" class="socicon" />
+          <a href="https://github.com/cazabe" target="_blank" rel="noreferrer">
+            <img src={github} alt="Github" className="socicon" />
           </a>
         </div>
-        <i class="scroll-up" id="scroll-up">
-          <img src={rocket} class="socicon up-arrow" alt="scroll-up" />
+        <i className="scroll-up" id="scroll-up">
+          <img src={rocket} className="socicon up-arrow" alt="scroll-up" />
         </i>
         <Skills />
         <Projects />

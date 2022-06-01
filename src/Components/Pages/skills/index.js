@@ -12,7 +12,10 @@ import "./knowledge.css";
 const Skills = () => {
   return (
     <section class="skills" id="skills">
-      <h2 class="skill-header">My Top Skills</h2>
+      <h1>
+        <strong><span style={{ fontFamily: "Orbitron, sans-serif" }}>Mis</span></strong>
+        <strong><span style={{ fontFamily: "Cinzel, serif", color: "var(--custom-color)" }}> Skills</span></strong>
+      </h1>
 
       <div class="skills-wrapper">
         <div class="first-set animate__animated animate__pulse">

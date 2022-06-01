@@ -1,17 +1,16 @@
-nav a{
-    font-family: 'Playfair Display', serif;
+nav a {
+    font-family: 'Orbitron', sans-serif;
 }
 
-.nav-item a{
-    color: #fff!important;
+.nav-item a {
+    color: #fff !important;
 }
 
-.nav-link:hover{
-    color: #e96b27!important;
-    font-size: 18px;
+.nav-link:hover {
+    color: #FBA223 !important;
+    font-size: 40px;
 }
 
-/* nav .container .navbar{
-    position: absolute!important;
-    z-index: 1;
-} */
+.navbar-nav {
+    font-size: 25px;
+}

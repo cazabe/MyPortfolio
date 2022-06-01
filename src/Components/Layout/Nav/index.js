@@ -20,17 +20,22 @@ const NavComponent = () => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href>
+              <a className="nav-link active" href="#sobremi">
                 Sobre mí
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href>
+              <a className="nav-link active" href="#skills">
+                Mis skills
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#proyectos">
                 Proyectos
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href>
+              <a className="nav-link" href="#contacto">
                 Contacto
               </a>
             </li>

@@ -1,11 +1,10 @@
 import React from 'react';
 import './footer.css';
 
-const Footer = ()=>{
+const Footer = () => {
 
-  return(
+  return (
     <footer className="footer">
-    footer
     </footer>
   )
 }
