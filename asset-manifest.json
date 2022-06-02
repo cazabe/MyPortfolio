@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/myportfolio/static/css/main.e0db8d79.chunk.css",
+    "main.js": "/myportfolio/static/js/main.215d1a8a.chunk.js",
+    "main.js.map": "/myportfolio/static/js/main.215d1a8a.chunk.js.map",
+    "runtime-main.js": "/myportfolio/static/js/runtime-main.2623980f.js",
+    "runtime-main.js.map": "/myportfolio/static/js/runtime-main.2623980f.js.map",
+    "static/css/2.9082872e.chunk.css": "/myportfolio/static/css/2.9082872e.chunk.css",
+    "static/js/2.35f67bc7.chunk.js": "/myportfolio/static/js/2.35f67bc7.chunk.js",
+    "static/js/2.35f67bc7.chunk.js.map": "/myportfolio/static/js/2.35f67bc7.chunk.js.map",
+    "index.html": "/myportfolio/index.html",
+    "static/css/2.9082872e.chunk.css.map": "/myportfolio/static/css/2.9082872e.chunk.css.map",
+    "static/css/main.e0db8d79.chunk.css.map": "/myportfolio/static/css/main.e0db8d79.chunk.css.map",
+    "static/js/2.35f67bc7.chunk.js.LICENSE.txt": "/myportfolio/static/js/2.35f67bc7.chunk.js.LICENSE.txt",
+    "static/media/codeVideo.321fe793.mp4": "/myportfolio/static/media/codeVideo.321fe793.mp4",
+    "static/media/covid-tracker.0011e4e5.png": "/myportfolio/static/media/covid-tracker.0011e4e5.png",
+    "static/media/file-upload.804c26f6.png": "/myportfolio/static/media/file-upload.804c26f6.png",
+    "static/media/get-in touch.220645ff.svg": "/myportfolio/static/media/get-in touch.220645ff.svg",
+    "static/media/icons8-flutter.c7660c66.svg": "/myportfolio/static/media/icons8-flutter.c7660c66.svg",
+    "static/media/icons8-github.7d909b64.gif": "/myportfolio/static/media/icons8-github.7d909b64.gif",
+    "static/media/icons8-html-5.10080bf9.svg": "/myportfolio/static/media/icons8-html-5.10080bf9.svg",
+    "static/media/icons8-instagram.be0aee7c.gif": "/myportfolio/static/media/icons8-instagram.be0aee7c.gif",
+    "static/media/icons8-javascript.1776ef3b.gif": "/myportfolio/static/media/icons8-javascript.1776ef3b.gif",
+    "static/media/icons8-launch.bfd45d94.gif": "/myportfolio/static/media/icons8-launch.bfd45d94.gif",
+    "static/media/icons8-linkedin-circled.2d674a21.gif": "/myportfolio/static/media/icons8-linkedin-circled.2d674a21.gif",
+    "static/media/icons8-mysql-logo.e055e76c.svg": "/myportfolio/static/media/icons8-mysql-logo.e055e76c.svg",
+    "static/media/icons8-node-js.59f2e322.svg": "/myportfolio/static/media/icons8-node-js.59f2e322.svg",
+    "static/media/icons8-php-logo.88405124.svg": "/myportfolio/static/media/icons8-php-logo.88405124.svg",
+    "static/media/icons8-python.630e0d30.gif": "/myportfolio/static/media/icons8-python.630e0d30.gif",
+    "static/media/icons8-react-native.40a1bcb0.svg": "/myportfolio/static/media/icons8-react-native.40a1bcb0.svg",
+    "static/media/mochi-phone.f22feb82.png": "/myportfolio/static/media/mochi-phone.f22feb82.png",
+    "static/media/rikuna_crm.c2a502a0.png": "/myportfolio/static/media/rikuna_crm.c2a502a0.png",
+    "static/media/software_developer.cdb5701f.png": "/myportfolio/static/media/software_developer.cdb5701f.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2623980f.js",
+    "static/css/2.9082872e.chunk.css",
+    "static/js/2.35f67bc7.chunk.js",
+    "static/css/main.e0db8d79.chunk.css",
+    "static/js/main.215d1a8a.chunk.js"
+  ]
+}
