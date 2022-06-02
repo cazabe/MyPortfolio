@@ -1,4 +1,5 @@
 import React from "react";
+import GlobalBtn from "../buttons/globalBtn";
 import './projectCard.css';
 
 const ProjectCard = ({ srcImg, title, text, projectLink }) => {
@@ -16,11 +17,7 @@ const ProjectCard = ({ srcImg, title, text, projectLink }) => {
                     <p className="project-details">
                         {text}
                     </p>
-                    <a href={projectLink} target="_blank" rel="noreferrer">
-                        <div className="mb-4 my-button col-md-3 col-xs-12" style={{ width: "100%", fontSize: "14px" }}>
-                            <strong>Mira el proyecto en Github</strong>
-                        </div>
-                    </a>
+                    <GlobalBtn url={projectLink} text={"Mira mi proyecto en Github"} btnWidth={"100%"} customFont={"14px"} />
                 </div>
             </div>
         </>

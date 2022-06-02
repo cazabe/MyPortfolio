@@ -9,6 +9,7 @@ import github from "../../Assets/icons8-github.gif";
 import rocket from "../../Assets/icons8-launch.gif";
 import Banner from "../Misc/banner";
 import CodeVideo from "../../Assets/codeVideo.mp4";
+import GlobalBtn from "../Misc/buttons/globalBtn";
 
 
 const Content = () => {
@@ -42,11 +43,7 @@ const Content = () => {
               que me ayudaria en mi desarrollo profesional ya que no estaba pasando por el mejor momento. Nunca me imagine que despues de ver un tutorial en youtube sobre programación
               haya terminado trabajando como programador y que esto se haya convertido en mi pasión.
             </p>
-            <a href="https://drive.google.com/file/d/1bAUvHApRNR48VIoT8uQN-LlFA75CMgzn/view?usp=sharing" target="_blank" rel="noreferrer">
-              <div className="mb-4 my-button col-md-3 col-xs-12">
-                <strong>Mira mi cv</strong>
-              </div>
-            </a>
+            <GlobalBtn url={"https://drive.google.com/file/d/1bAUvHApRNR48VIoT8uQN-LlFA75CMgzn/view?usp=sharing"} text={"Mira mi cv"} />
           </div>
           <div className="col-md-6 col-xs-12">
             <img
